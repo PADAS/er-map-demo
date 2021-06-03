@@ -5,9 +5,10 @@ function App() {
     <>
     <div className="App">
       <h1>Er-Demo-site</h1>
-      <div id="map">
-        <p>ER MAP</p>
-        </div>
+      <div>
+        {/* <p>ER MAP</p> */}
+        <iframe height="500" width="1200" title="ER MAP" src={`${process.env.PUBLIC_URL}/build/index.html`}></iframe>
+      </div>
     </div>
     </>
   );
